@@ -13,12 +13,20 @@ function App() {
             <Link className="navButton" to="/">
               Home
             </Link>
-            <Link className="navButton" to="/resume">
+            <a
+              className="navButton"
+              href="https://standardresume.co/r/daniel-hackl-80092"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Resume
-            </Link>
-            <Link className="navButton" to="/about">
+            </a>
+            {/* <Link className="navButton" to="/resume">
+              Resume
+            </Link> */}
+            {/* <Link className="navButton" to="/about">
               About Me
-            </Link>
+            </Link> */}
             <Link className="navButton" to="/projects">
               Projects
             </Link>
