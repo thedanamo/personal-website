@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://thedanamo.github.io/personal-website",
+  "homepage": "https://thedanamo.github.io/",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
