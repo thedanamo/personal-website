@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://youthful-bassi-c342b0.netlify.com",
+  "homepage": ".",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
