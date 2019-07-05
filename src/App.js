@@ -10,7 +10,7 @@ function App() {
       <Layout>
         <Header className="header-color" title="Daniel Hackl" scroll>
           <Navigation>
-            <Link className="navButton" to="/">
+            <Link className="navButton" to="/home">
               Home
             </Link>
             <a
@@ -37,7 +37,7 @@ function App() {
         </Header>
         <Drawer title="Daniel Hackl">
           <Navigation>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
             <a
               className="navButton"
               href="https://standardresume.co/r/daniel-hackl-80092"
