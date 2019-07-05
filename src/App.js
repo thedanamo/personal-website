@@ -38,8 +38,16 @@ function App() {
         <Drawer title="Daniel Hackl">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/about">About Me</Link>
+            <a
+              className="navButton"
+              href="https://standardresume.co/r/daniel-hackl-80092"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Resume
+            </a>
+            {/* <Link to="/resume">Resume</Link> */}
+            {/* <Link to="/about">About Me</Link> */}
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
           </Navigation>
