@@ -24,12 +24,19 @@ class Projects extends Component {
     return (
       <Card
         shadow={5}
-        style={{ minWidth: "450", margin: "auto", borderRadius: "3%" }}
+        style={{
+          minWidth: "200px",
+          width: "22%",
+          height: "auto",
+          maxHeight: "100vw",
+          margin: "auto",
+          borderRadius: "3%"
+        }}
       >
         <CardTitle
           style={{
             color: "black",
-            height: "176px",
+            height: "12rem",
             background:
               "url(https://www.freevector.com/uploads/vector/preview/19766/8-06.jpg) center"
           }}

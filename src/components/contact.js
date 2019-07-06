@@ -26,7 +26,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: "30px",
+                      fontSize: "2vw",
                       color: "white",
                       fontFamily: "Anton"
                     }}
@@ -38,7 +38,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: "30px",
+                      fontSize: "2vw",
                       color: "white",
                       fontFamily: "Anton"
                     }}
@@ -50,7 +50,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: "30px",
+                      fontSize: "2vw",
                       color: "white",
                       fontFamily: "Anton"
                     }}
@@ -62,7 +62,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent
                     style={{
-                      fontSize: "30px",
+                      fontSize: "2vw",
                       color: "white",
                       fontFamily: "Anton"
                     }}
