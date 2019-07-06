@@ -94,7 +94,7 @@ body {
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px ridge white;
   width: 50%;
   margin: auto;
 }
@@ -249,7 +249,7 @@ body {
 }
 
 .contact-grid hr {
-  border-top: 5px dotted white;
+  border-top: 5px ridge white;
   width: 50%;
   margin: auto;
 }
