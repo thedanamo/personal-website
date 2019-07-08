@@ -149,6 +149,10 @@ body {
   color: white !important;
 }
 
+.card-text {
+  overflow-y: auto !important;
+}
+
 /* Resize */
 @media screen and (min-width: 1201px), screen and (min-height: 601px) {
   .mdl-card__supporting-text {
