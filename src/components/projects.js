@@ -35,24 +35,30 @@ class Projects extends Component {
       >
         <CardTitle
           style={{
-            color: "black",
+            color: "white",
             height: "12rem",
             background:
-              "url(https://www.freevector.com/uploads/vector/preview/19766/8-06.jpg) center"
+              "url(https://i.ibb.co/tcM1W8W/gridfall-picturesmall.png) center",
+            backgroundSize: "cover"
           }}
         >
-          Grid Fall
+          {/* Project title goes here, over picture */}
         </CardTitle>
         <CardText className="card-text">
-          Ten day team project created with:
-          <br /> Javascript, React.js, Redux.js, Babel.js, SVG, Node.js,
-          Express.js, MongoDB, Socket.io
+          Grid Fall
+          <br />
+          - 10 day 4 team member project.
           <br />
           <br />
           Purpose:
           <br /> To challenge ourselves, put our newly acquired skills to the
-          test, and learn along the way. Built an online multiplayer game and
-          the website around it.
+          test, and learn along the way. Built an online multiplayer strategy
+          game and the website around it.
+          <br />
+          <br />
+          Created with:
+          <br /> Javascript, React.js, Redux.js, Babel.js, SVG, Node.js,
+          Express.js, MongoDB, Socket.io
           <br />
           <br />
           Other collaborators:
@@ -101,6 +107,63 @@ class Projects extends Component {
     );
   };
 
+  //Personal Website project display
+  getPersonalWebpageProjectCard = () => {
+    return (
+      <Card
+        shadow={5}
+        style={{
+          minWidth: "200px",
+          width: "22%",
+          height: "auto",
+          maxHeight: "100vw",
+          margin: "auto",
+          borderRadius: "3%"
+        }}
+      >
+        <CardTitle
+          style={{
+            color: "white",
+            height: "12rem",
+            background: "url(https://i.ibb.co/Dw3xqT4/personalws.png) center",
+            backgroundSize: "contain"
+          }}
+        >
+          {/* Project title goes here, over picture */}
+        </CardTitle>
+        <CardText className="card-text">
+          Personal Website
+          <br />
+          - (This website you are using now)
+          <br />
+          <br />
+          Purpose:
+          <br /> To develop and set up a personal website using React while
+          learning the process of deploying it, and then associating with a
+          custom domain name. To become more familiar with github.
+          <br />
+          <br />
+          Created with:
+          <br /> Javascript, React.js, MDL
+          <br />
+        </CardText>
+        <CardActions border>
+          {/* Github */}
+          <Button
+            colored
+            href="https://github.com/thedanamo/personal-website"
+            target="_blank"
+          >
+            GitHub
+          </Button>
+        </CardActions>
+        <CardMenu style={{ color: "#fff" }}>
+          <IconButton name="share" />
+        </CardMenu>
+      </Card>
+    );
+  };
+
   //can do a switch
   toggleCategories = () => {
     switch (this.state.activeTab) {
@@ -112,8 +175,8 @@ class Projects extends Component {
         );
       case 1:
         return (
-          <div>
-            <h1>More to be added soon</h1>
+          <div className="projects-content">
+            {this.getPersonalWebpageProjectCard()}
           </div>
         );
       default:
@@ -134,7 +197,7 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Group</Tab>
+          <Tab>Team</Tab>
           <Tab>Personal</Tab>
         </Tabs>
 

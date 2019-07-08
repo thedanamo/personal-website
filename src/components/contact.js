@@ -24,49 +24,25 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "2vw",
-                      color: "white",
-                      fontFamily: "Anton"
-                    }}
-                  >
+                  <ListItemContent className="contact-text">
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (514) 994-8399
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "2vw",
-                      color: "white",
-                      fontFamily: "Anton"
-                    }}
-                  >
+                  <ListItemContent className="contact-text">
                     <i className="fa fa-envelope-square" aria-hidden="true" />
                     dan.hackl@gmail.com
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "2vw",
-                      color: "white",
-                      fontFamily: "Anton"
-                    }}
-                  >
+                  <ListItemContent className="contact-text">
                     <i className="fa fa-skype" aria-hidden="true" />
                     daniel.hackl1
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "2vw",
-                      color: "white",
-                      fontFamily: "Anton"
-                    }}
-                  >
+                  <ListItemContent className="contact-text">
                     <a
                       href="https://www.linkedin.com/in/danielhackl/"
                       rel="noopener noreferrer"
