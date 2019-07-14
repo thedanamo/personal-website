@@ -37,6 +37,14 @@ class Landing extends Component {
                 >
                   <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
+                {/* Twitter */}
+                <a
+                  href="https://twitter.com/DanielHackl8"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-twitter-square" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>
