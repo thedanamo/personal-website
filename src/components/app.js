@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+import "../styles/app.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
+import Main from "./main";
 import { Link } from "react-router-dom";
 
 class App extends Component {
@@ -19,17 +19,9 @@ class App extends Component {
               <Link className="navButton" to="/">
                 Home
               </Link>
-              <a
-                className="navButton"
-                href="https://standardresume.co/r/daniel-hackl-80092"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <Link className="navButton" to="/resume">
                 Resume
-              </a>
-              {/* <Link className="navButton" to="/resume">
-              Resume
-            </Link> */}
+              </Link>
               {/* <Link className="navButton" to="/about">
               About Me
             </Link> */}
@@ -46,17 +38,13 @@ class App extends Component {
               <Link to="/" onClick={() => this.hideToggle()}>
                 Home
               </Link>
-              <a
-                className="navButton"
-                href="https://standardresume.co/r/daniel-hackl-80092"
-                rel="noopener noreferrer"
-                target="_blank"
-                onClick={() => this.hideToggle()}
-              >
+              <Link to="/resume" onClick={() => this.hideToggle()}>
                 Resume
-              </a>
-              {/* <Link to="/resume">Resume</Link> */}
-              {/* <Link to="/about">About Me</Link> */}
+              </Link>
+              {/* <Link to="/about" onClick={() => this.hideToggle()}>
+                {" "}
+                About Me
+              </Link> */}
               <Link to="/projects" onClick={() => this.hideToggle()}>
                 Projects
               </Link>
@@ -66,8 +54,9 @@ class App extends Component {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
-            <Main />
+            <div className="page-content">
+              <Main />
+            </div>
           </Content>
         </Layout>
       </div>

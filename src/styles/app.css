@@ -1,0 +1,52 @@
+.header-color {
+  background: transparent !important;
+}
+
+.mdl-layout__drawer.is-visible {
+  color: white;
+  border-right: 0px;
+  background: #4da0b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #4da0b0,
+    #132a33
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #4da0b0,
+    #132a33
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link,
+.material-icons {
+  color: white !important ;
+}
+
+.mdl-navigation__link:hover {
+  transition: all 0.2s !important;
+  background: rgba(0, 0, 0, 0.4) !important ;
+  border-radius: 10% !important;
+}
+
+.navButton {
+  transition: all 0.2s;
+}
+.navButton:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20%;
+}
+
+body {
+  background: #4da0b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #4da0b0,
+    #132a33
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #4da0b0,
+    #132a33
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

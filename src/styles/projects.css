@@ -1,0 +1,52 @@
+.projects-grid {
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: 90%;
+}
+
+.projects-content {
+  display: flex;
+}
+
+/* .tabs-bar {
+    //background for tab bar
+  } */
+
+.mdl-tabs__tab-bar {
+  border-bottom: 0 !important;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mdl-tabs__tab {
+  color: white !important;
+}
+
+.card-text {
+  overflow-y: auto !important;
+}
+
+/* Resize */
+@media screen and (min-width: 1201px), screen and (min-height: 601px) {
+  .mdl-card__supporting-text {
+    font-size: 1em !important;
+  }
+
+  .card-text a {
+    color: blue;
+    font-size: 1em;
+  }
+}
+
+/* Resize*/
+@media screen and (max-width: 1200px), screen and (max-height: 600px) {
+  .mdl-card__supporting-text {
+    font-size: 0.75em !important;
+  }
+
+  .card-text a {
+    color: blue;
+    font-size: 0.75em;
+  }
+}

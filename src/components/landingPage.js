@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import "../styles/landing.css";
 
 class Landing extends Component {
   render = () => {
